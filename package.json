@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-blanded-repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+
+    "start": "node main.js petro=pizza maria=privet",
+    "dev": "nodemon main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petroDavydov/nodejs-blanded-repo.git"
+  },
+  "keywords": [],
+  "author": "Petro Davydov <petrodavydov@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/petroDavydov/nodejs-blanded-repo/issues"
+  },
+  "homepage": "https://github.com/petroDavydov/nodejs-blanded-repo#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
